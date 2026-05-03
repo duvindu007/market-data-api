@@ -23,8 +23,8 @@ project/
 │   ├── exceptions.py
 │   ├── model.py
 │   ├── db.py
-│   └── utils/
-│       └── logger.py
+│   └── logger.py
+│       
 │
 ├── database/
 │   └── prices.db
