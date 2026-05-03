@@ -1,10 +1,12 @@
 import sqlite3
+import os
 from app.config import settings
 
 
 class DataBase:
     def __init__(self, db_name=settings.DB_NAME):
         self.db_name = db_name
+        os.makedirs(os.path.dirname(db_name), exist_ok=True)
 
     def get_connection(self):
         conn = sqlite3.connect(self.db_name)
