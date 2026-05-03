@@ -27,7 +27,7 @@ market-data-api/
 │       
 │
 ├── database/
-│   └── prices.db
+│   └── Market_data.db
 │
 ├── logs/
 │   └── app.log
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ---
 ### 3. Configure Environment
 
-Create `.env` file:
+Update `.env` file:
 
 ```ini
 BASE_URL=
@@ -80,6 +80,7 @@ http://127.0.0.1:9000/docs
 ```http
 POST /save_all/{symbol}
 ```
+Only used to bulk upload
 
 ### Get Annual Data
 ```http
