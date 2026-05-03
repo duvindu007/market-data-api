@@ -5,10 +5,10 @@ class Settings(BaseSettings):
     # API
     EXTERNAL_API_URL: str
     API_KEY: str
-    API_TIMEOUT: int = 10
+    API_TIMEOUT: int
 
     # Database
-    DB_NAME: str = "database/Market_data.db"
+    DB_NAME: str 
 
     # Logging
     LOG_LEVEL: str = "INFO"
