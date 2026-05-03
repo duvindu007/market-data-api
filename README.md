@@ -12,7 +12,7 @@ A FastAPI-based backend service to fetch, store, and analyze monthly market data
 ## 🏗️ Project Structure
 
 ```
-project/
+market-data-api/
 │
 ├── app/
 │   ├── main.py
@@ -100,7 +100,7 @@ logs/app.log
 
 SQLite file:
 ```
-database/prices.db
+database/Market_data.db
 ```
 
 ---
