@@ -42,14 +42,6 @@ class MarketService:
         finally:
             conn.close()
 
-
-    def save_all_market_data(self, montly_data: list[MarketResponse], monthly_markets: list[dict]):
-        for data in montly_data:
-            self.repository.get_or_create_symbol(Market)
-
-        for monthly_market in monthly_markets:
-            self.repository.save_montly_market_data(monthly_market)
-
     def get_annual_market_values(self, symbol_name: str, year: str):
         # get aggregated yearly market data
         # ensures all full 12 month data exists

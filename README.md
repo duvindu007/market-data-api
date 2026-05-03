@@ -80,12 +80,14 @@ http://127.0.0.1:9000/docs
 ```http
 POST /save_all/{symbol}
 ```
-Only used to bulk upload
+Only used to bulk upload data for a particular symbol. However, get_annual_market_values
+will update it also. 
 
 ### Get Annual Data
 ```http
 GET /get_annual_market_values/symbols/{symbol}/annual/{year}
 ```
+Get high, low and volume by aggregating the 12 monthly data points
 
 ---
 
