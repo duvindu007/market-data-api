@@ -107,4 +107,7 @@ SQLite file:
 database/Market_data.db
 ```
 folder and file will created when application starts.
+
+
+
 ---
