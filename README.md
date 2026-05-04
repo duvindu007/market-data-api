@@ -96,6 +96,7 @@ Get high, low and volume by aggregating the 12 monthly data points
 ```
 logs/app.log
 ```
+folder and file will created when application starts.
 
 ---
 
@@ -105,5 +106,5 @@ SQLite file:
 ```
 database/Market_data.db
 ```
-
+folder and file will created when application starts.
 ---
